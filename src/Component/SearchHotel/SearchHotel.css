@@ -1,0 +1,11 @@
+.hotelSearch{
+   margin-top: 120px;
+}
+p.details {
+   margin-bottom: 5px;
+}
+.starIcon {
+   color: orange;
+   margin-top: -4px;
+   font-size: 1.3rem !important;
+}

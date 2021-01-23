@@ -1,0 +1,24 @@
+.row.booking {
+   padding-top: 160px;
+}
+.formPaper{
+   padding: 25px;
+}
+.col-md-6.bookingDiv {
+   padding: 0 50px;
+}
+.inputBox {
+   padding-bottom: 20px;
+}
+.Input, .Submit {
+   font-size: 1.2rem;
+   padding: 12px 05px;
+   background-color: #f2f2f2;
+}
+.Submit{
+   margin-top: 5px;
+   background-color: orange;
+}
+.Error{
+   color:red;
+}

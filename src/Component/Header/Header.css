@@ -1,0 +1,152 @@
+img.travelLogo {
+   width: 100px;
+}
+.navbar-light .navbar-toggler {
+   color: rgba(255, 255, 255, 0);
+   border: 2px solid white;
+}
+@media only screen and (max-width: 767px) {
+   img.travelLogo {
+      width: 90px;
+   }
+   li.nav-item.col-3.text-right {
+      text-align: left !important;
+   }
+ }
+.searchBox {
+   border: 1px solid white !important;
+   border-radius: 5px;
+   background-color: #8080801f;
+}
+.searchBoxBlack {
+   border: 1px solid black !important;
+   border-radius: 5px;
+   background-color: #8080801f;
+}
+
+/* search Icon */
+.textBlack{
+   color: black !important;
+}
+
+/* Navbar Bottom border */
+.borderBottom {
+   border-bottom: 1px solid ;
+}
+
+.MuiButton-contained {
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+    background-color: #e0e0e0;
+}
+.MuiButton-root {
+    color: rgba(0, 0, 0, 0.87);
+    padding: 6px 16px;
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+}
+.MuiButtonBase-root {
+    color: inherit;
+    border: 0;
+    cursor: pointer;
+    margin: 0;
+    display: inline-flex;
+    outline: 0;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    user-select: none;
+    border-radius: 0;
+    vertical-align: middle;
+    -moz-appearance: none;
+    justify-content: center;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.logInBtn {
+    background-color: #f9a51a !important;
+    padding: 8px 20px !important;
+    font-size: 15px !important;
+}
+.login {
+   background-color: #f9a51a !important;
+   padding: 6px 16px !important;
+   font-size: 15px !important;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained:focus {
+   outline: none;
+}
+.makeStyles-search-1 {
+   width: 40%;
+   position: relative;
+   margin-left: 0;
+   margin-right: 16px;
+   border-radius: 4px;
+   background-color: rgba(255, 255, 255, 0.15);
+}
+
+.nav-link {
+   color: white !important;
+   font-size: 18px;
+}
+.nav-link:hover {
+   color: orange !important;
+   font-size: 18px !important;
+}
+.blackText {
+   text-decoration: none;
+   color: black !important;
+   font-size: 18px;
+}
+.blackText:hover {
+   color: orange !important;
+   font-size: 18px !important;
+}
+
+@media only screen and (min-width: 768px) {
+   .navbar-expand-md .navbar-collapse {
+      display: flex!important;
+      width: 40%;
+  }
+   .navbar-expand-md .navbar-nav {
+      flex-direction: row;
+      width: 100%;
+   }
+   .searchBox {
+      border: 1px solid;
+      border-radius: 5px;
+      background-color: #8080801f;
+      width: 25% !important;
+  }
+   .searchBoxBlack {
+      border: 1px solid black !important;
+      border-radius: 5px;
+      background-color: #8080801f;
+      width: 25% !important;
+   }
+  li.nav-item.col-3.text-right {
+      text-align: right !important;
+   }
+}
+
+a{
+   color: black;
+   text-decoration: none;
+}
+a:hover{
+   color: black;
+   text-decoration: none;
+}
+.userName:focus{
+   outline: none;
+}
