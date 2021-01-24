@@ -25,7 +25,9 @@ const Home = ({scrollFunc}) => {
          const savedProduct = JSON.parse(localStorage.getItem('selectedService'));
          setSelected(savedProduct)
       }
+   }, [])
 
+   useEffect(() => {
       contexts.setHeaderColor(true)
       window.addEventListener("scroll", () => {
          if(window.scrollY > 50){
@@ -34,7 +36,6 @@ const Home = ({scrollFunc}) => {
             contexts.setHeaderColor(true)
          }
        })
-
    }, [])
   
 
